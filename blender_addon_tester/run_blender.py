@@ -107,6 +107,7 @@ def run_blender_version_for_addon_with_pytest_suite(addon_path, blender_revision
         "blender_load_tests_script",
         "coverage",
         "tests",
+        "blender_cache",
         "pytest_args",
     ]
     for c in config.keys():
